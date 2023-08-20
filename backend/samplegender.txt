@@ -10451,6 +10451,7 @@
             "style360Images": {},
             "styleType": "P",
             "subCategory": {
+                
                 "active": true,
                 "id": 31,
                 "isExchangeable": true,

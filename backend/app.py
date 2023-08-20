@@ -89,7 +89,7 @@ def getbyGender():
     data = request.json
     limitnum = data.get("limit")
     if not limitnum:
-        limitnum = 100
+        limitnum = 100;
     col = connectMongo()
     complete_data=[]
     gender = data["gender"].lower().capitalize()
